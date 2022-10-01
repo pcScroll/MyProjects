@@ -5,12 +5,14 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello() -> str:
-    return 'Hello1 world from Flask!'
+def hello2() -> str:
+    return 'Hello22 world from Flask!'
 
 
 @app.route('/search4')
 def do_search() -> str: 
     return str(search4letters('life, the universe, and everything', 'eiru, !'))
 
-app.run()
+
+if __name__ == "__main__":
+ app.run()
