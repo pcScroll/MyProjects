@@ -12,7 +12,7 @@ def hello2() -> str:
 
 @app.route('/search4')
 def do_search() -> set: 
-  return str(search4letters('life, the universe, and everything', 'eiru,'))
+  return str(search4letters('life, the universe, and everything', 'eiru'))
      
 
 @app.route('/vsearch')
