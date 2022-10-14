@@ -11,8 +11,9 @@ def hello2() -> str:
 
 
 @app.route('/search4')
+
 def do_search() -> set: 
-  return str(search4letters('life, the universe, and everything', 'eiru'))
+  return str(search4letters('life,efdgcfghbjbjhgffdvasiuytrertyi ', 'eiru'))
      
 
 @app.route('/vsearch')
@@ -21,4 +22,4 @@ def vsearch() -> set:
 
 
 if __name__ == "__main__":
- app.run(debug=True)
+ app.run()
